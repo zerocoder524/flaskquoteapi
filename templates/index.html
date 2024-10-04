@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Случайная цитата</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+    <div class="container mt-5">
+        <h1 class="text-center">Случайная цитата</h1>
+        <div class="card">
+            <div class="card-body">
+                <blockquote class="blockquote text-center">
+                    <p class="mb-0">{{ quote[0] }}</p>
+                    <footer class="blockquote-footer">{{ quote[1] }}</footer>
+                </blockquote>
+                <a href="/" class="btn btn-primary">Получить другую цитату</a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
